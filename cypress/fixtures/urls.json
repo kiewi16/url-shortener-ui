@@ -1,10 +1,8 @@
-[
+{"urls": [
     {
-        "title": "keep going Kim",
-        "long_url": "this is my test data"
-    },
-    {
-        "title": "you can do this",
-        "long_url": "this is more test data"
+        "id": 1,
+        "long_url": "test data long_url",
+        "short_url": "test data short_url",
+        "title": "test data title"
     }
-]
+]}

@@ -7,6 +7,7 @@ import UrlForm from '../UrlForm/UrlForm';
 function App () {
   const [urls, setUrls] = useState([]);
 
+
   useEffect(() => {
     getUrls()
     .then(data => setUrls([...urls, ...data.urls]))
@@ -16,7 +17,7 @@ function App () {
   function addUrl(newURL) {
     postUrl(newURL)
     .then(data => setUrls([...urls, data]))
-    // .catch(error => console.log(error))
+    .catch(error => console.log(error))
   }
 
   return (
